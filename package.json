@@ -16,9 +16,15 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@mui/material": "^5.4.1",
     "gatsby": "^4.9.3",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "gatsby-plugin-preact": "^6.9.0",
+    "preact": "^10.6.6",
+    "preact-render-to-string": "^5.1.20",
+    "gatsby-transformer-sharp": "^4.7.0",
+    "gatsby-plugin-sharp": "^4.7.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.21",

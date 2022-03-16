@@ -4,5 +4,9 @@ module.exports = {
       title: ``,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+      "gatsby-plugin-preact",
+      `gatsby-transformer-sharp`,
+      `gatsby-plugin-sharp`,
+  ],
 }

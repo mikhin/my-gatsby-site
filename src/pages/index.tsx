@@ -1,5 +1,7 @@
 import * as React from "react"
 
+import CoreSlider from "@mui/material/Slider";
+
 // styles
 const pageStyles = {
   color: "#232129",
@@ -136,6 +138,7 @@ const IndexPage = () => {
         <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
         🎉🎉🎉
       </h1>
+      <CoreSlider/>
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.tsx</code> to see this page
         update in real-time. 😎
